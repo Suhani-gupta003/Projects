@@ -1,0 +1,137 @@
+:root{
+	font-size:100%;
+	font-size:16px;
+	line-height:1.5;
+	--primary-blue:#233975;
+}
+body{
+	padding:0;
+	margin:0;
+	font-family:'Montserrat',sans-serif;
+	font-weight:500;
+}
+h2{
+	font-size:1.5rem;
+	font-weight:700;
+    font-family: 'Montserrat';
+	color:#273f6a;
+	font-style: normal;
+    font-size: 1.56vw;
+    
+	
+    
+}
+.split-screen{
+	display:flex;
+	flex-direction:coloumn;
+
+}
+.left{
+	height:200px;
+}
+.left,.right{
+	display:flex;
+	justify-content:center;
+	align-items:center;
+}
+.left{
+	background-color: darkblue;
+	opacity:0.6;
+	background-size:cover;
+	height:100vh;
+	width:60vw;
+}
+ul{
+	color:white;
+	position:relative;
+	left:40px;
+	font-size: 1.35rem;
+	font-family: Montserrat,sans-serif;
+    margin: 1rem 0;
+}
+img{
+	cursor: pointer;
+}
+
+.demo{
+	position:absolute;
+	bottom:0;
+	display:flex;
+	flex-direction:row;
+}
+form{
+	display:flex;
+	flex-direction:column;
+	justify-content:center;
+	box-sizing:border-box;
+	align-items:center;
+	min-height:100vh;
+	gap:20px;
+}
+.input-container-email{
+	position:relative;
+	width:32vw;
+}
+.input-container-email input{
+	border: 2px solid var(--primary-blue);
+    border-radius: 4px;
+    padding: 1rem;
+	height: auto;
+    width: 100%;
+	box-sizing: border-box;
+	outline:none;
+	font-size:1em;
+	display:block;
+	box-shadow:2px 2px 2px #273f6a;
+	
+}
+.input-container-email span{
+	position:absolute;
+	left:0;
+	padding: 0.02rem 0.5rem;
+	font-size:1em;
+	color: #1d97af;
+	font-weight: 500;
+    background: #fff;
+    border-radius: 6px;
+    top: -0.78rem;
+    left: 0.6rem;
+	display: inline-block;
+	box-sizing: border-box;
+}
+button{
+	cursor: pointer;
+	
+}
+.login-btn{
+	height: 2.5rem;
+    padding: 0 5rem;
+    font-size: 1rem;
+	background-color:#00a46d;
+	color:white;
+	border-radius: 0.25rem;
+	border-color:#00a46d;
+	margin: 0 0.5rem;
+	text-decoration: none;
+    outline: none;
+    border: none;
+    line-height: 1.2;
+    text-align: center;
+}
+h4{
+	color: #273f6a;
+    margin: 0;
+	font-family: Montserrat;
+	top:20px;
+}
+.demo-btn{
+	border: 2px solid #00a46d;
+	background-color:white;
+	color:#00a46d;
+	height: 1.85rem;
+	border-radius: 0.25rem;
+}
+.right{
+	width: 40%;
+    text-align: center;
+}
