@@ -17,7 +17,9 @@ h2{
 	color:#273f6a;
 	font-style: normal;
     font-size: 1.56vw;
-    
+    top:50px;
+	position: relative;
+    top: 2px;
 	
     
 }
@@ -98,10 +100,11 @@ form{
     left: 0.6rem;
 	display: inline-block;
 	box-sizing: border-box;
+	font-family: 'Montserrat';
 }
 button{
 	cursor: pointer;
-	
+	font-family: 'Montserrat';
 }
 .submit-btn{
 	height: 2.5rem;
@@ -117,12 +120,15 @@ button{
     border: none;
     line-height: 1.2;
     text-align: center;
+	margin-top:30px;
+	margin-bottom:35px;
 }
 h4{
 	color: #273f6a;
     margin: 0;
 	font-family: Montserrat;
-	top:20px;
+	position: relative;
+    bottom: 8px;
 }
 .demo-btn{
 	border: 2px solid #00a46d;
@@ -130,8 +136,15 @@ h4{
 	color:#00a46d;
 	height: 1.85rem;
 	border-radius: 0.25rem;
+	width:150px;
+	position: relative;
+    bottom: 8px;
+	margin-left:10px;
+	font-size:15px;
+	margin-right:0.5px;
 }
 .right{
 	width: 40%;
     text-align: center;
 }
+
